@@ -1,0 +1,299 @@
+{
+  "version": 1,
+  "skills": {
+    "composiocli": {
+      "version": "1.0.0",
+      "installedAt": 1783728478169,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "81faa7ca7a50787e160af768b66fb3a5a4371f261acc4797c0eea388bb8143b0",
+        "integrity": "sha256-gfqnynpQeH4WCvdotm+zpaQ3HyYazEeXwO6jiLuBQ7A="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "0c2ca6f7c03546d33a083484d443c75d6844e164c2859ef562051c060df5f768"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": false,
+        "decision": "fail",
+        "reasons": [
+          "security.status_not_clean"
+        ],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/composiocli/card?ownerHandle=eladrave&version=1.0.0",
+          "sha256": "8e1963e054079fd9da9034ec18d2ea5a821d7903d59520e3fad3284964102084",
+          "size": 2813,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "0bf813e9393e2fac9a0a75bad72e8b5b24c6f75bacaab7f13ac0f57052c874dd",
+          "bundleFingerprints": [
+            "3a12931c5ecb80c2ed519d6343060d951a2abc5870b9cf22bebc077ff17f03be"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 2184,
+              "sha256": "0c2ca6f7c03546d33a083484d443c75d6844e164c2859ef562051c060df5f768",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "AGENTS.md",
+              "size": 14813,
+              "sha256": "33d4a405a535ff3c03095ba081d3b955b2508d8fa095df3edf1ceab7d94c6e10",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/building-with-composio.md",
+              "size": 5279,
+              "sha256": "24ee98911a105fa7e9c03591becf8fd033b39bce56b99788bef0bad3e9610eb1",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-auth-auto.md",
+              "size": 3003,
+              "sha256": "db3917b0ff5b4752f78e09df45b10d9fb9e103c79b214a4093ab9ce08f714252",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-user-context.md",
+              "size": 5768,
+              "sha256": "5835912381537d875fa0ef305ed75ae4c34915ee95744bb6d9bd3a4b4842fab8",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-auth-configs.md",
+              "size": 5797,
+              "sha256": "375d823e2c46c4da596205c269385a39e7ae11acab326690dbc7497c51aa2bb8",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-framework-mastra.md",
+              "size": 5365,
+              "sha256": "b768b69e83e1457090737115fe3ffadd90c58253e810d98e40aa9d44c806421d",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/triggers-manage.md",
+              "size": 6948,
+              "sha256": "9122b2e8f1dcee888defca3c8287988d0d4b9a3fe9811c52b5eeb5a415d13f39",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/_template.md",
+              "size": 620,
+              "sha256": "b8593ca217a5826b284b9c63be7754a3f8c405da8674558e0b9707e754a0fcc3",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-session-lifecycle.md",
+              "size": 10480,
+              "sha256": "d3c25f337b1d58310be6b3993127857cfb3f440162a0c24dbc2e4a5d386750d3",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-custom-tools.md",
+              "size": 5572,
+              "sha256": "85b735f2589baff42f92a0d704e52875bbfd9dcf5c58710356bbfa89ee680652",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/composio-cli.md",
+              "size": 8328,
+              "sha256": "7fc66b239f377d2126806143cae0b3926a8285bf21c1873e6fdcd831b7d41d5d",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-auth-connections.md",
+              "size": 5123,
+              "sha256": "ab2cb4daab9fc7343064d2f20c9c6311924d21004851691e96d9918b10ba6981",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/triggers-subscribe.md",
+              "size": 4178,
+              "sha256": "257a9b53e1b70a22fd246e64b4842eb95b56ee5e02a094ca9b6d1402740686db",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-framework-integration.md",
+              "size": 21843,
+              "sha256": "5dda833d04812c0ac0f6cb4fc84749dca8d4bf739078e9f4aa430232f1dcf524",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-toolkit-query.md",
+              "size": 4393,
+              "sha256": "54d5f167aa02f84d1fda4350c421dd60c2f6d3edaa96679d8e500a3c9ef03c74",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-auth-manual.md",
+              "size": 4931,
+              "sha256": "dd968ed19457efe9918442cfd7c429ec01faa0e51496c633d1ad609c4897f8f9",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-fetch-tools.md",
+              "size": 9679,
+              "sha256": "029817707dce05c87157e16ee19144de958e959c1317bd1f649b2cd59da98b27",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-execute-tools.md",
+              "size": 6556,
+              "sha256": "21d8eacde6ab322a8f22d73caf382164307f6804d3b2a99f5c83828a7c3528ca",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-userid-best-practices.md",
+              "size": 12692,
+              "sha256": "e3a50e9d97058966f62190fb4215bda8090797f0932d1a46e8ae5d883a1eb52a",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-connected-accounts.md",
+              "size": 7043,
+              "sha256": "c875a0308caff18766880466d60a7acab8030e695820cac160eda4468a406c27",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-modifiers.md",
+              "size": 3335,
+              "sha256": "6b8449364d0931345271565af939371eee81ac99920daed3cc62d304b95d5ee1",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/setup-api-keys.md",
+              "size": 5602,
+              "sha256": "30c90a24728ca227e2b2964391e3f5923b8ebe1b40b62a62ee5463fd0ea8f4b8",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-mcp-vs-native.md",
+              "size": 7670,
+              "sha256": "56b3220c8fde939e120eb3c3c1ff4b0f5ce48cbe6aec54305da7d48dd80857c2",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-session-config.md",
+              "size": 4579,
+              "sha256": "4ff42741c8b4f93f9c974831da7ef8a163fcf6a772d42dfc4a4e594eac1599c0",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/triggers-webhook.md",
+              "size": 5404,
+              "sha256": "d63adfcca66932fe8bfe53c75b4a538f58b353ae9cd3491afc8cb29494d6874d",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-tool-versions.md",
+              "size": 10398,
+              "sha256": "c0eb7edd643b5d4571d57796db8e2d5414a7ee25a6e33e4ce68b5c7b74be74b5",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/triggers-create.md",
+              "size": 6215,
+              "sha256": "ca3cf6d460fbc9629be60a94734c5cd254d30c8746b669652eff489311a297dd",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-session-basic.md",
+              "size": 2475,
+              "sha256": "76cd174ebe255cf1251f47414cdddecc3129efc222b4fb9988089dd1ab5b1162",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-toolkits.md",
+              "size": 5077,
+              "sha256": "a94c7b3fceb1a332a87689bb1a4aa7f1a6d08643ec610c1bd36f31b1ff25bae4",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-framework-ai-sdk.md",
+              "size": 6329,
+              "sha256": "04cf58dc9969dce1bd59382ad0a0563c0ba2757268b5c66f6dfed118ce54dc9b",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/tr-building-chat-ui.md",
+              "size": 9749,
+              "sha256": "2b4d6078363488ce8452fe9c1ba1831662750956815ba9e41ea7470bfe1ab0a5",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "rules/app-auth-popup-ui.md",
+              "size": 4207,
+              "sha256": "83beffd9c86c12d26000d5163435e073641b9e23de8027fd96368ad6717994b5",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "suspicious",
+          "passed": false,
+          "rawStatus": "suspicious",
+          "verdict": "suspicious",
+          "confidence": "high",
+          "summary": "This skill is a legitimate Composio integration guide, but it gives agents broad authority over external accounts with too little consent, approval, and sensitive-data handling guidance.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779939968769,
+          "signals": {
+            "staticScan": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "reasonCodes": [
+                "suspicious.exposed_secret_literal",
+                "suspicious.prompt_injection_instructions"
+              ],
+              "summary": "Detected: suspicious.exposed_secret_literal, suspicious.prompt_injection_instructions",
+              "engineVersion": "v2.4.23",
+              "checkedAt": 1778394624732
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 65
+              },
+              "checkedAt": 1780090264738
+            },
+            "skillSpector": {
+              "status": "suspicious",
+              "rawStatus": "suspicious",
+              "score": 100,
+              "severity": "CRITICAL",
+              "recommendation": "DO_NOT_INSTALL",
+              "issueCount": 29,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779939897623
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}

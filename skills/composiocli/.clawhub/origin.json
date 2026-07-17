@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "composiocli",
+  "installedVersion": "1.0.0",
+  "installedAt": 1783728478169,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "81faa7ca7a50787e160af768b66fb3a5a4371f261acc4797c0eea388bb8143b0",
+    "integrity": "sha256-gfqnynpQeH4WCvdotm+zpaQ3HyYazEeXwO6jiLuBQ7A="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "0c2ca6f7c03546d33a083484d443c75d6844e164c2859ef562051c060df5f768"
+  }
+}
